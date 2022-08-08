@@ -71,7 +71,7 @@ manzanas = 300
 peras = 30
 
 # COMPLETAR - INICIO
-if bananas < (naranjas / 2):
+if  bananas < (naranjas / 2):
     if (naranjas /2) < (manzanas * 2):
         if (manzanas * 2) <= (pow(peras, 2)):
             comparar_frutas = True
