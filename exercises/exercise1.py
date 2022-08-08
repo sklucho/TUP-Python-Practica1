@@ -57,7 +57,7 @@ assert cantidad_a_comprar == 2
 
 
 """
-Determinar ssi el número de la variable es divisible por 7.
+Determinar si el número de la variable es divisible por 7.
 Restricción: Usar el operador módulo.
 """
 
