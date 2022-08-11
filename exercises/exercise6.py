@@ -6,7 +6,11 @@ Restricción: Utilizar el método append
 """
 
 # COMPLETAR - INICIO
-lista_01 = 
+lista_01 = []
+lista_01.append("Hola ")
+lista_01.append("como ")
+lista_01.append("estas ")
+lista_01.append("hoy?")
 # COMPLETAR - FIN
 
 assert len(lista_01) == 4
@@ -20,7 +24,7 @@ Restricción: Utilizar el método pop
 lista = ["ho", "la", 81, 6, 42, "como", "estas?"]
 
 # COMPLETAR - INICIO
-
+elemento_extraido = lista.pop(3)
 # COMPLETAR - FIN
 
 assert elemento_extraido == 6
@@ -36,7 +40,8 @@ lista_b = ["4", "5", "6"]
 lista_c = ["siete", "ocho", "nueve"]
 
 # COMPLETAR - INICIO
-
+lista = lista_a.extend(lista_b)
+listas_concatenadas_01 = lista_a.extend(lista_c)
 # COMPLETAR - FIN
 
 assert listas_concatenadas_01 == [1, 2, 3, "4", "5", "6", "siete", "ocho", "nueve"]
@@ -51,7 +56,7 @@ variable_01 = 2
 lista_nueva = [0, 1, 3, 4]
 
 # COMPLETAR - INICIO
-
+lista_nueva.insert(variable_01, 2)
 # COMPLETAR - FIN
 
 assert lista_nueva == [0, 1, 2, 3, 4]
@@ -65,7 +70,9 @@ Restricción: Utilizar el método append junto al indexado simple
 lista = ["ho", 3.1416, 42, 81, 6, "la"]
 
 # COMPLETAR - INICIO
-
+lista_nueva_01 = []
+lista_nueva_01.append(lista[0:6:5])
+lista_primero_y_ultimo = lista_nueva_01
 # COMPLETAR - FIN
 
 assert lista_primero_y_ultimo == ["ho", "la"]
