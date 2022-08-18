@@ -1,2 +1,0 @@
-
-assert comparar_frutas
